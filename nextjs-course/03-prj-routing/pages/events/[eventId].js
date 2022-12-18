@@ -4,13 +4,18 @@ import EventSummary from "../../components/event-detail/event-summary";
 import EventContent from "../../components/event-detail/event-content";
 import EventLogistics from "../../components/event-detail/event-logistics";
 import { getEventById } from "../../dummy-data";
+import ErrorAlert from "../../components/ui/error-alert";
 
 function EventDetailPage() {
   const router = useRouter();
   const event = getEventById(router.query.eventId);
 
   if (!event) {
-    return <p>No event found!</p>;
+    return (
+      <ErrorAlert>
+        <p>Invalid filter. Please adjust your values!</p>
+      </ErrorAlert>
+    );
   }
 
   return (
