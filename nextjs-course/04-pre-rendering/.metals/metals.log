@@ -177,3 +177,4 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not in
 	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1169)
 	... 16 more
 
+2023.01.05 11:28:20 INFO  shutting down Metals
