@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		674A937B2A23549A00C8CDED /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A937A2A23549A00C8CDED /* Questions.swift */; };
+		674A937B2A23549A00C8CDED /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674A937A2A23549A00C8CDED /* Question.swift */; };
 		67EBC3912A2C77FA00FB2700 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBC3902A2C77FA00FB2700 /* QuizBrain.swift */; };
 		AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */; };
 		AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BDE4B22D878BA005BA4CC /* SceneDelegate.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		674A937A2A23549A00C8CDED /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		674A937A2A23549A00C8CDED /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		67EBC3902A2C77FA00FB2700 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		AD4BDE4622D878BA005BA4CC /* Quizzler-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizzler-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		67EBC38F2A2C77D800FB2700 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				674A937A2A23549A00C8CDED /* Questions.swift */,
+				674A937A2A23549A00C8CDED /* Question.swift */,
 				67EBC3902A2C77FA00FB2700 /* QuizBrain.swift */,
 			);
 			path = Model;
@@ -174,7 +174,7 @@
 			files = (
 				67EBC3912A2C77FA00FB2700 /* QuizBrain.swift in Sources */,
 				AD4BDE4E22D878BA005BA4CC /* ViewController.swift in Sources */,
-				674A937B2A23549A00C8CDED /* Questions.swift in Sources */,
+				674A937B2A23549A00C8CDED /* Question.swift in Sources */,
 				AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */,
 				AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */,
 			);
